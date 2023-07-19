@@ -1,0 +1,371 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+section {
+    width: 100%;
+    height: 22vh;
+}
+
+section nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* position: fixed; */
+    right: 0;
+    left: 0;
+    background: #fdd27c;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    /* z-index: 100; */
+}
+
+section nav .logo img {
+    width: 100px;
+    cursor: pointer;
+    margin: 15px 0px;
+}
+
+section nav ul {
+    list-style: none;
+}
+
+section nav ul li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+section nav ul li a {
+    text-decoration: none;
+    color: #000;
+    font-weight: 700px;
+    font-size: 18px;
+    transition: 0.1s;
+    font-family: 'Outfit', sans-serif;
+    font-weight: 500;
+}
+
+section nav ul li a::after {
+    content: '';
+    width: 0;
+    height: 2px;
+    background: #fac031;
+    display: block;
+    transition: 0.2s linear;
+}
+
+section nav ul li a:hover::after {
+    width: 100%;
+}
+
+section nav ul li a:hover {
+    color: #ffffff;
+}
+
+/*Button Search*/
+
+
+.box {
+    max-width: 400px;
+    width: 100%;
+
+}
+
+.box .search-box {
+    position: relative;
+    height: 50px;
+    max-width: 50px;
+    margin: auto;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 25px;
+    transition: all 0.3s ease;
+}
+
+#check:checked ~ .search-box {
+    max-width: 380px;
+}
+
+.search-box input {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    border-radius: 25px;
+    background: #fff;
+    outline: none;
+    border: none;
+    padding-left: 20px;
+    font-size: 18px;
+}
+
+.search-box .icon {
+    position: absolute;
+    right: -2px;
+    top: 0;
+    width: 50px;
+    background: #FFF;
+    height: 100%;
+    text-align: center;
+    line-height: 50px;
+    color: #fac031;
+    font-size: 20px;
+    border-radius: 25px;
+}
+
+#check:checked ~ .search-box .icon {
+    background: #fac031;
+    color: #FFF;
+    width: 60px;
+    border-radius: 0 25px 25px 0;
+}
+
+#check {
+    display: none;
+}
+
+section nav .icon i:hover {
+    color: #fac031;
+}
+
+section .main {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+    top: 150px;
+}
+
+section .main {
+    font-size: 60px;
+    position: relative;
+    top: -90px;
+    left: 20px;
+}
+
+section .main {
+    margin-left: 15px;
+    color: #fac031;
+    font-family: mv boli;
+    line-height: 20px;
+    font-size: 70px;
+}
+
+section .main {
+    width: 600px;
+    position: relative;
+    left: 90px;
+}
+
+section .main_btn {
+    background: #fac031;
+    position: relative;
+    left: 123px;
+    bottom: 30px;
+    width: 150px;
+    cursor: pointer;
+    padding: 12px 25px;
+}
+
+section .main_btn a {
+    color: #fff;
+    margin-right: 5px;
+    text-decoration: none;
+}
+
+section .main_btn i {
+    color: #fff;
+    transition: 0.3s;
+}
+
+section .main_btn:hover i {
+    transform: translateX(7px);
+}
+
+/*Body - Princípal*/
+
+
+.text_principal {
+    font-family: 'Ysabeau Infant', sans-serif;
+    color: #fac031;
+    justify-content: center;
+    text-align: center;
+    font-size: 3.8rem;
+    margin-left: -18rem;
+    text-shadow: 30px 23px 2px #ffe377;
+}
+
+.second_principal {
+    font-family: 'Ysabeau Infant', sans-serif;
+    color: #fac031;
+    text-align: center;
+    font-size: 3.8rem;
+    text-shadow: 30px 23px 2px #ffe377;
+}
+
+.third_principal {
+    font-family: 'Roboto', sans-serif;
+    color: #ffe377;
+    justify-content: center;
+    text-align: center;
+    margin-top: -26vh;
+    font-size: 130px;
+    margin-left: 265px;
+    text-shadow: 20px -2px 2px #ffeb9c;
+}
+
+
+.main-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: 'Outfit', sans-serif;
+    font-size: 1.4rem;
+    word-spacing: 1vh;
+    margin: 4rem 0;
+    width: 65%;
+    text-align: justify;
+}
+
+p:first-of-type {
+    margin-top: 3rem;
+}
+
+.img_text {
+    max-width: 60%;
+    margin-bottom: 2rem;
+}
+
+
+/*Footer*/
+
+body {
+    line-height: 1.3;
+    font-family: 'Outfit', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1170px;
+    margin: auto;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+ul {
+    list-style: none;
+}
+
+.footer {
+    background-image: url(image/Fundo1.avif);
+    padding: 100px 0;
+    opacity: 80%;
+}
+
+.footer-col {
+    width: 25%;
+    padding: 20px 15px;
+}
+
+.footer-col h4 {
+    font-size: 18px;
+    color: #030202;
+    text-transform: capitalize;
+    margin-bottom: 35px;
+    font-weight: 500px;
+    position: relative;
+}
+
+.footer-col h4::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    background-color: #fac031;
+    height: 3px;
+    box-sizing: border-box;
+    width: 50px;
+}
+
+.footer-col ul li:not(:last-child) {
+    margin-bottom: 8px;
+}
+
+.footer-col ul li a {
+    font-size: 16px;
+    text-transform: capitalize;
+    color: #fffefe;
+    text-decoration: none;
+    font-weight: 300;
+    color: #000000;
+    display: block;
+    transition: all 0.3s ease;
+    font-weight: bold;
+}
+
+.footer-col ul li a:hover {
+    color: #ffffff;
+    padding-left: 8px;
+}
+
+.footer-col .social-links a {
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background-color: rgba(48, 43, 43, 0.2);
+    margin: 0 10px 10px 0;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    color: #fbc900;
+    transition: all 0.5s ease;
+}
+
+.footer-col .social-links a:hover {
+    color: #24262b;
+    background-color: #ffffff;
+}
+
+.center-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.main-body {
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@media (max-width: 767px) {
+    .text_principal {
+        margin-left: -12rem;
+    }
+
+    .text_principal {
+        margin-left: -12rem;
+    }
+
+    .main-text {
+        word-spacing: .5vh;
+        width: 90%;
+    }
+
+    .img_text {
+        max-width: 95%;
+    }
+}

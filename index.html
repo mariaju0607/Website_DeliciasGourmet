@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta content="IE=edge" http-equiv="X-UA-Compatible">
+    <meta content="width=device-width, initial-scale=1.0" nome="viewport">
+    <title>Delícias Gourmet</title>
+    <link href="style.css" rel="stylesheet">
+    <!-- Importando Icon -->
+    <link crossorigin="anonymous" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+          integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+          referrerpolicy="no-referrer" rel="stylesheet"/>
+    <!-- Favicon -->
+    <link href="image/logo_marca.svg" rel="shortcut icon" type="image/x-icon">
+    <!-- Importando Fontes -->
+    <link href="https://fonts.googleapis.com" rel="preconnect">
+    <link crossorigin href="https://fonts.gstatic.com" rel="preconnect">
+    <link href="https://fonts.googleapis.com/css2?family=Ysabeau+Infant:wght@100&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@200&display=swap" rel="stylesheet">
+    <!-- JS -->
+    <script defer src="script.js"></script>
+
+</head>
+
+<body>
+
+<!--Nav-->
+<nav>
+    <div class="logo">
+        <img src="image/logo_marca.svg">
+    </div>
+
+    <ul>
+        <li><a href="#">Início</a></li>
+        <li><a href="receitas">Receitas</a></li>
+        <li><a href="quem_somos">Quem somos?</a></li>
+    </ul>
+
+</nav>
+
+<div class="main_content">
+
+
+    <div class="main">
+
+        <div class="main_text">
+            <h1>Quando você <br> está com<span><br> Fome</span> e não <br> sabe oque fazer?</h1>
+            <p>
+                O Delícias Gourmet é o melhor site para <br>
+                explorar novos pratos, receitas e dicas... <br>
+                É muito PRÁTICO de usar e a melhor forma <br>
+                de encontrar noividades com nossa ajuda
+            </p>
+
+            <div class="main_btn">
+                <a href="receitas">Culinária</a>
+                <i class="fa-solid fa-angle-right"></i>
+            </div>
+        </div>
+
+        <div class="main_image">
+            <img src="image/Cooking.jpg">
+        </div>
+
+    </div>
+
+
+    <!--Carrosel-->
+
+    <div class="container-carousel">
+        <div class="wrapper">
+            <i class="fa-solid fa-angle-left" id="left"></i>
+            <ul class="carousel">
+                <li class="card">
+                    <div class="img"><img alt="img" draggable="false" src="image/Saladas.jpg"></div>
+                    <h2><a href="categorias/saladas/">Saladas</a></h2>
+                </li>
+                <li class="card">
+                    <div class="img"><img alt="img" draggable="false" src="image/Pizza_.jpg"></div>
+                    <h2><a href="categorias/pizza/">Pizza</a></h2>
+                </li>
+                <li class="card">
+                    <div class="img"><img alt="img" draggable="false" src="image/hamburguer.jpg"></div>
+                    <h2><a href="categorias/hamburguer/">Hambúrguer</a></h2>
+                </li>
+                <li class="card">
+                    <div class="img"><img alt="img" draggable="false" src="image/Sanduiche_Carrossel.jpg"></div>
+                    <h2><a href="categorias/sanduiche/">Sandúiche</a></h2>
+                </li>
+                <li class="card">
+                    <div class="img"><img alt="img" draggable="false" src="image/Milkshake.jpg"></div>
+                    <h2><a href="categorias/milkshake/">Milkshake</a></h2>
+                </li>
+                <li class="card">
+                    <div class="img"><img alt="img" draggable="false" src="image/Bolos_Carrosel.webp"></div>
+                    <h2><a href="categorias/bolos/">Bolos</a></h2>
+                </li>
+                <li class="card">
+                    <div class="img"><img alt="img" draggable="false" src="image/Lasanha_Carrosel.jpeg"></div>
+                    <h2><a href="categorias/lasanha/">Lasanha</a></h2>
+                </li>
+                <li class="card">
+                    <div class="img"><img alt="img" draggable="false" src="image/Pao_Carrosel.jpg"></div>
+                    <h2><a href="categorias/paes/">Pães</a></h2>
+                </li>
+                <li class="card">
+                    <div class="img"><img alt="img" draggable="false" src="image/Roscas_Carrosel.jpg"></div>
+                    <h2><a href="categorias/roscas/">Roscas</a></h2>
+                </li>
+                <li class="card">
+                    <div class="img"><img alt="img" draggable="false" src="image/Pave_Carrosel.webp"></div>
+                    <h2><a href="categorias/pave/">Pavê</a></h2>
+                </li>
+                <li class="card">
+                    <div class="img"><img alt="img" draggable="false" src="image/Panquecas_Carrosel.jpg"></div>
+                    <h2><a href="categorias/rapidos/">Rápidos...</a></h2>
+                </li>
+            </ul>
+            <i class="fa-solid fa-angle-right" id="right"></i>
+        </div>
+    </div>
+
+    <!--Menu/Recomendados-->
+
+    <div class="menu">
+        <h1>Receitas<span class="texto-destaque">Famosas</span></h1>
+
+        <div class="menu_box">
+            <div class="menu_card">
+
+                <div class="menu_image">
+                    <img src="image/img_burguer.avif">
+                </div>
+
+                <div class="menu_info">
+                    <h2>Big Mac</h2>
+                    <p>
+                        Hambúrguer feito artesanalmente com acompanhamento do molho Big Mac
+                    </p>
+                    <a class="menu_btn" href="receitas/big_mac/">Ingredientes</a>
+                </div>
+
+            </div>
+
+            <div class="menu_card">
+
+                <div class="menu_image">
+                    <img src="image/Pao_de_Alho.jpg">
+                </div>
+
+                <div class="menu_info">
+                    <h2>Pão de Alho</h2>
+                    <p>
+                        Pão de Alho caseirão,<br> para curtir o churrasco
+                    </p>
+                    <a class="menu_btn" href="receitas/pao_alho/">Ingredientes</a>
+                </div>
+
+            </div>
+
+            <div class="menu_card">
+
+                <div class="menu_image">
+                    <img src="image/lasagna.webp">
+                </div>
+
+                <div class="menu_info">
+                    <h2>Lasanha a Bolonhesa</h2>
+                    <p>
+                        Lasanha ao molho Bolonhesa, <br> e com massa feita artesanalmente
+                    </p>
+                    <a class="menu_btn" href="receitas/lasanha_bolonhesa/">Ingredientes</a>
+                </div>
+
+            </div>
+
+            <div class="menu_card">
+
+                <div class="menu_image">
+                    <img src="image/Milkshake.jpg">
+                </div>
+
+                <div class="menu_info">
+                    <h2>Milkshake</h2>
+                    <p>
+                        Feito no liquidificador, fácil, rápido e TRUFADO
+                    </p>
+                    <a class="menu_btn" href="receitas/milkshake_nutella/">Ingredientes</a>
+                </div>
+
+            </div>
+
+            <div class="menu_card">
+
+                <div class="menu_image">
+                    <img src="image/pao_chocolate.jpg">
+                </div>
+
+                <div class="menu_info">
+                    <h2>Flor de Chocolate</h2>
+                    <p>
+                        Deliciosa sobremesa que combina massa de bolo macia com um recheio cremoso de chocolate.
+                    </p>
+                    <a class="menu_btn" href="receitas/flor_de_chocolate/">Ingredientes</a>
+                </div>
+
+            </div>
+
+            <div class="menu_card">
+
+                <div class="menu_image">
+                    <img src="image/ice_cream.jpg">
+                </div>
+
+                <div class="menu_info">
+                    <h2>Sorvete de Amora</h2>
+                    <p>
+                        Nada pode ser melhor que um sorvete caseiro, usando com frutas fresquinhas e feito por
+                        você!!! </p>
+                    <a class="menu_btn" href="receitas/sorvete_amora/">Ingredientes</a>
+                </div>
+
+            </div>
+
+            <div class="menu_card">
+
+                <div class="menu_image">
+                    <img src="image/biryani.webp">
+                </div>
+
+                <div class="menu_info">
+                    <h2>Frango Assado <br>Especial</h2>
+                    <p>
+                        Frango assado Especial com recheio INCRÍVEL
+                    </p>
+                    <a class="menu_btn" href="receitas/frango_recheado/">Ingredientes</a>
+                </div>
+
+            </div>
+
+            <!-- <div class="menu_card">
+
+            <div class="menu_image">
+                <img src="image/chocolate.jpg">
+            </div>
+
+            <div class="small_card">
+                <i class="fa-solid fa-heart"></i>
+            </div>
+
+            <div class="menu_info">
+                <h2>Bombom <br>Pão de Mel</h2>
+                <p>
+                    Essa é uma versão do pão de mel recheado em forma de bombom que fica espetacular e lindo.
+                </p>
+                <div class="menu_icon">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half-stroke"></i>
+                </div>
+                <a href="#" class="menu_btn">Ingredientes</a>
+            </div>
+
+        </div> -->
+
+            <!-- <div class="menu_card">
+
+            <div class="menu_image">
+                <img src="image/ice_cream.jpg">
+            </div>
+
+            <div class="small_card">
+                <i class="fa-solid fa-heart"></i>
+            </div>
+
+            <div class="menu_info">
+                <h2>Sorvete de amora</h2>
+                <p>
+                    Nada pode ser melhor que um sorvete caseiro, usando com frutas fresquinhas e feito por você!!!
+                </p>
+                <div class="menu_icon">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half-stroke"></i>
+                </div>
+                <a href="#" class="menu_btn">Ingredientes</a>
+            </div>
+
+        </div> -->
+
+            <!-- <div class="menu_card">
+
+            <div class="menu_image">
+                <img src="image/Spanchi.jpg">
+            </div>
+
+            <div class="small_card">
+                <i class="fa-solid fa-heart"></i>
+            </div>
+
+            <div class="menu_info">
+                <h2>Cupcakes com Morangos</h2>
+                <p>
+                    Estes Cupcakes são cupcake de chocolate, com cobertura de morango fresco</p>
+                <div class="menu_icon">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half-stroke"></i>
+                </div>
+                <a href="#" class="menu_btn">Ingredientes</a>
+            </div>
+
+        </div> -->
+
+            <div class="menu_card">
+
+                <div class="menu_image">
+                    <img src="image/sandwich.jpg">
+                </div>
+
+                <div class="menu_info">
+                    <h2>Sanduíche Natural de Atum</h2>
+                    <p>
+                        Este sanduíche natural de atum é uma receita simples e prática. Experimente!</p>
+                    <a class="menu_btn" href="receitas/sanduiche_atum/">Ingredientes</a>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <!--Recomendados-->
+
+    <div class="recomendado">
+        <h1 id="recomendado-titulo">Mais<span class="texto-destaque">Recomendados</span></h1>
+
+        <div class="recomendado_box">
+            <div class="img_recomendado">
+                <img src="image/cebola.png">
+
+                <div class="info">
+                    <h2 class="nome">Cebola</h2>
+                    <p class="bio">Já experimentou essa deliciosa receita de Cebola Empanada?</p>
+                    <a class="recomendado_btn" href="receitas/cebola_empanada/">Ingredientes</a>
+                </div>
+
+            </div>
+
+            <div class="img_recomendado">
+                <img src="image/Crepes.webp">
+
+                <div class="info">
+                    <h2 class="nome">Crepes de Nutella</h2>
+                    <p class="bio">Os crepes caseiros de Nutella são <br> uma receita fácil de café da manhã
+                        <br> ou
+                        brunch.</p>
+                    <a class="recomendado_btn" href="receitas/crepes_nutella/">Ingredientes</a>
+
+                </div>
+
+            </div>
+
+            <div class="img_recomendado">
+                <img src="image/chocolate.jpg">
+
+                <div class="info">
+                    <h2 class="nome">Bombom pão de Mel</h2>
+                    <p class="bio"> Pão de mel recheado com doce de leite em forma de bombom que fica espetacular e
+                        lindo.</p>
+                    <a class="recomendado_btn" href="receitas/bombom_pao_mel/">Ingredientes</a>
+                </div>
+
+            </div>
+
+            <div class="img_recomendado">
+                <img src="image/Pudim.jpg">
+
+                <div class="info">
+                    <h2 class="nome">Pudim sem ovo</h2>
+                    <p class="bio">Fácil e rápido de fazer... Você vai se surpreender</p>
+                    <a class="recomendado_btn" href="receitas/pudim/">Ingredientes</a>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+<!--Footer-->
+
+<footer class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="footer-col">
+                <h4>Informações</h4>
+                <ul>
+                    <li><a href="quem_somos">Quem somos?</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Categorias</h4>
+                <ul>
+                    <li><a href="categorias/saladas/">Saladas</a></li>
+                    <li><a href="categorias/pizza">Pizza</a></li>
+                    <li><a href="categorias/hamburguer/">Hambúrguer</a></li>
+                    <li><a href="categorias/sanduiche">Sandúiche</a></li>
+                    <li><a href="categorias/milkshake">Milkshake</a></li>
+                    <li><a href="categorias/bolos/">Bolos</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <ul>
+                    <li><a href="categorias/lasanha">Lasanha</a></li>
+                    <li><a href="categorias/paes">Pães</a></li>
+                    <li><a href="categorias/roscas">Roscas</a></li>
+                    <li><a href="categorias/pave">Pavê</a></li>
+                    <li><a href="categorias/rapidos">Rápidos...</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</footer>
+</body>
+
+</html>
