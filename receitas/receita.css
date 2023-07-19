@@ -250,7 +250,7 @@ ul {
     margin-top: -43px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 991px) {
     .main-content {
         margin: 0 2rem;
         padding: 0 1rem;

@@ -326,7 +326,7 @@ ul {
     margin-top: -43px;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 991px) {
     .menu .menu_box {
         display: flex;
         flex-direction: column;

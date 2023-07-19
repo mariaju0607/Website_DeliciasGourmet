@@ -72,7 +72,7 @@ nav ul li a:hover {
     color: #ffffff;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 991px) {
     nav .logo img {
         width: 6rem;
     }
@@ -214,7 +214,7 @@ nav .icon i:hover {
     transform: translateX(7px);
 }
 
-@media (max-width: 800px) {
+@media (max-width: 991px) {
     .main {
         flex-direction: column;
         /*  */
@@ -352,7 +352,7 @@ nav .icon i:hover {
     margin: 0px 0 0px;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 991px) {
     .wrapper .carousel {
         grid-auto-columns: calc(50% - 10px);
     }
@@ -493,7 +493,7 @@ nav .icon i:hover {
     border-radius: 15px;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 991px) {
     .menu .menu_box {
         display: flex;
         flex-direction: column;
@@ -614,7 +614,7 @@ nav .icon i:hover {
     color: #fac031;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 991px) {
     .recomendado {
         height: 103rem;
         justify-content: space-between;

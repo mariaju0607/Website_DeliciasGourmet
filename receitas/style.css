@@ -258,7 +258,7 @@ section .main_btn:hover i {
     background-color: #ffffff59;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 991px) {
     .banner-texto {
         max-width: 100%;
         background-color: rgba(0, 0, 0, 0.5);
